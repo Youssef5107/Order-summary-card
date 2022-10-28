@@ -32,13 +32,35 @@ main {
 }
 
 .card {
-	width: 400px;
-	height: 600px;
+	max-width: 400px;
+	height: fit-content;
 	background-color: white;
 	border-radius: 10px;
 }
 
 .main-img {
 	max-width: 400px;
-	border-radius: 10px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.card-content {
+	margin: 30px auto 0px;
+}
+
+.content-title {
+	color: var(--Dark-blue);
+	font-size: 18px;
+	font-family: bold;
+	text-align: center;
+}
+
+.content {
+	font-size: 12px;
+	color: var(--Desaturated-blue);
+	font-family: light;
+	text-align: center;
+	margin-top: 20px;
+	width: 200px;
+	margin: 20px auto;
+
 }
