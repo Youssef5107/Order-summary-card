@@ -20,3 +20,23 @@
 	font-family: regular;
 	src: url(../../assets/Fonts/Red_Hat_Text/static/RedHatText-Regular.ttf);
 }
+
+main {
+	display: flex;
+	height: 100vh;
+	background-color: var(--Pale-blue);
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 400px;
+	height: 600px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.main-img {
+	max-width: 400px;
+	border-radius: 10px;
+}
