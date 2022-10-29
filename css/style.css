@@ -97,3 +97,19 @@ main {
 	color: var(--Desaturated-blue);
 	font-family: light;
 }
+
+.payment-background {
+	max-width: 300px;
+	margin: 10px auto;
+	background-color: var(--Bright-blue);
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.payment {
+	color: white;
+	font-family: regular;
+}
