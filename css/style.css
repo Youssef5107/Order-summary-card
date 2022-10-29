@@ -100,7 +100,7 @@ main {
 
 .payment-background {
 	max-width: 300px;
-	margin: 10px auto;
+	margin: 20px auto;
 	background-color: var(--Bright-blue);
 	height: 40px;
 	border-radius: 10px;
@@ -112,4 +112,16 @@ main {
 .payment {
 	color: white;
 	font-family: regular;
+}
+
+.cancel-bt-area {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+.cancel {
+	color: var(--Desaturated-blue);
+	font-family: bold;
+	font-size: 14px;
 }
