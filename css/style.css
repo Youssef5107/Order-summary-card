@@ -32,15 +32,17 @@ main {
 }
 
 .card {
-	max-width: 400px;
+	max-width: 350px;
+	width: 100%;
 	height: fit-content;
 	background-color: white;
 	border-radius: 10px;
 }
 
 .main-img {
-	max-width: 400px;
+	max-width: 350px;
 	border-radius: 10px 10px 0px 0px;
+	width: 100%;
 }
 
 .card-content {
@@ -60,7 +62,7 @@ main {
 	font-family: light;
 	text-align: center;
 	margin-top: 20px;
-	width: 215px;
+	max-width: 215px;
 	margin: 20px auto;
 
 }
@@ -98,6 +100,13 @@ main {
 	font-family: light;
 }
 
+.link {
+	position: relative;
+	left: 25%;
+	bottom: 10px;
+
+}
+
 .payment-background {
 	max-width: 300px;
 	margin: 20px auto;
@@ -124,4 +133,12 @@ main {
 	color: var(--Desaturated-blue);
 	font-family: bold;
 	font-size: 14px;
+}
+
+
+@media(max-width:330px) {
+
+	.card {
+		margin: 20px;
+	}
 }
